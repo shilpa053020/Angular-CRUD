@@ -14,25 +14,25 @@
 
 5. Integrated with a backend API using MongoDB, Node.js, and Express
 
-### Technologies Used
+## Technologies Used
 
-## Frontend:
+# Frontend:
 
-# Angular
+ Angular
 
-# TypeScript
+ TypeScript
 
-3 Bootstrap (for styling)
+ Bootstrap (for styling)
 
-## Backend:
+# Backend:
 
-# Node.js
+ Node.js
 
-# Express.js
+ Express.js
 
-# MongoDB (Database)
+ MongoDB (Database)
 
-# Installation & Setup
+ Installation & Setup
 
 ### Prerequisites
 
