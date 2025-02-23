@@ -1,4 +1,4 @@
-###Angular CRUD Project
+### Angular CRUD Project
 
 ##This project is a simple CRUD (Create, Read, Update, Delete) application built using Angular. It allows users to manage student records by adding, editing, and deleting students.
 
