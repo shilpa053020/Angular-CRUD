@@ -1,94 +1,90 @@
-### Angular CRUD Project
+#### Angular CRUD Project
 
-##This project is a simple CRUD (Create, Read, Update, Delete) application built using Angular. It allows users to manage student records by adding, editing, and deleting students.
+## This project is a simple CRUD (Create, Read, Update, Delete) application built using Angular. It allows users to manage student records by adding, editing, and deleting students.
 
 ##Features
 
-Add new students
+1. Add new students
 
-Update student details
+2. Update student details
 
-Delete students
+3. Delete students
 
-Display student records in a table
+4. Display student records in a table
 
-Integrated with a backend API using MongoDB, Node.js, and Express
+5. Integrated with a backend API using MongoDB, Node.js, and Express
 
-Technologies Used
+### Technologies Used
 
-Frontend:
+## Frontend:
 
-Angular
+# Angular
 
-TypeScript
+# TypeScript
 
-Bootstrap (for styling)
+3 Bootstrap (for styling)
 
-Backend:
+## Backend:
 
-Node.js
+# Node.js
 
-Express.js
+# Express.js
 
-MongoDB (Database)
+# MongoDB (Database)
 
-Installation & Setup
+# Installation & Setup
 
-Prerequisites
+### Prerequisites
 
-Ensure you have the following installed:
+## Ensure you have the following installed:
 
-Node.js
+# Node.js
 
-Angular CLI
+# Angular CLI
 
-MongoDB
+# MongoDB
 
-Clone the repository
+## Clone the repository
 
-git clone https://github.com/shilpa053020/Angular-CRUD-.git
-cd Angular-CRUD-
+  git clone https://github.com/shilpa053020/Angular-CRUD-.git
+  cd Angular-CRUD-
 
-Backend Setup
+### Backend Setup
 
-Navigate to the backend folder:
+# Navigate to the backend folder:
 
-cd backend
+# cd backend
 
-Install dependencies:
+## Start the backend server:
 
-npm install
+# npm start
 
-Start the backend server:
+# The server will run on http://localhost:5000.
 
-npm start
+### Frontend Setup
 
-The server will run on http://localhost:5000.
+## Navigate to the frontend folder:
 
-Frontend Setup
+# cd frontend
 
-Navigate to the frontend folder:
+# Install dependencies:
 
-cd frontend
+# npm install
 
-Install dependencies:
+## Start the Angular application:
 
-npm install
+# ng serve
 
-Start the Angular application:
+# The application will be available at http://localhost:4200.
 
-ng serve
+### API Endpoints
 
-The application will be available at http://localhost:4200.
+## Students
 
-API Endpoints
+ => GET /students - Fetch all students
 
-Students
+ => POST /students - Add a new student
 
-GET /students - Fetch all students
+ => PUT /students/:id - Update student details
 
-POST /students - Add a new student
-
-PUT /students/:id - Update student details
-
-DELETE /students/:id - Delete a student
+ => DELETE /students/:id - Delete a student
