@@ -2,7 +2,7 @@
 
 ## This project is a simple CRUD (Create, Read, Update, Delete) application built using Angular. It allows users to manage student records by adding, editing, and deleting students.
 
-##Features
+## Features
 
 1. Add new students
 
@@ -38,44 +38,43 @@
 
 ## Ensure you have the following installed:
 
-# Node.js
+  Node.js
 
-# Angular CLI
+  Angular CLI
 
-# MongoDB
+  MongoDB
 
 ## Clone the repository
 
   git clone https://github.com/shilpa053020/Angular-CRUD-.git
   cd Angular-CRUD-
 
-### Backend Setup
+## Backend Setup
+ Navigate to the backend folder:
 
-# Navigate to the backend folder:
+ cd backend
 
-# cd backend
+ Start the backend server:
 
-## Start the backend server:
+ npm start
 
-# npm start
-
-# The server will run on http://localhost:5000.
+ The server will run on http://localhost:5000.
 
 ### Frontend Setup
 
 ## Navigate to the frontend folder:
 
-# cd frontend
+ cd frontend
 
-# Install dependencies:
+ Install dependencies:
 
-# npm install
+ npm install
 
 ## Start the Angular application:
 
-# ng serve
+ ng serve
 
-# The application will be available at http://localhost:4200.
+ The application will be available at http://localhost:4200.
 
 ### API Endpoints
 
