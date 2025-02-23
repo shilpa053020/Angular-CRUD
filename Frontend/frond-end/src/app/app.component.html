@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-between">
+  <div class="container mt-4 col-md-5">
+    <app-student-form
+      [student]="selectedStudent"
+      (formSubmit)="onFormSubmit()"
+    ></app-student-form>
+  </div>
+  <div class="container mt-4 col-md-7">
+    <app-student-table
+      [students]="students"
+      (editStudentEvent)="setSelectedStudent($event)"
+      (deleteStudentEvent)="onDeleteStudent($event)"
+    ></app-student-table>
+  </div>
+</div>

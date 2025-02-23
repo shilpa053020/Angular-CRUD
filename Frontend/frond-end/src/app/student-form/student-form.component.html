@@ -1,0 +1,47 @@
+<div class="container mt-4">
+  <div class="card p-4 shadow-lg">
+    <div class="card-header bg-primary text-white text-center">
+      <h2>Student Registration</h2>
+    </div>
+    <div class="card-body">
+      <form (ngSubmit)="submitForm()">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="student.name"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            [(ngModel)]="student.email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="phoneNo" class="form-label">Mobile Number:</label>
+          <input
+            type="number"
+            class="form-control"
+            [(ngModel)]="student.phoneNumber"
+            name="phoneNo"
+            id="phoneNo"
+            placeholder="Enter your mobile number"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">
+          {{ student._id ? "Update Student" : "Add Student" }}
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
